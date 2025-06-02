@@ -13,10 +13,10 @@ Steps you need to take to make your project work in a local environment:
 - Dockerfiles are included in the repository for simplicity
 - docker-compose.yml should be next to the blog.api and blog-frontend directories, create the file here and copy the contents you find in the README here
 - run a command from the root folder of the project where the compose file is located: `docker compose up -d`
-- run two commands in the blog-api container:
+- run two commands in the blog-day container to prepare the database:
 - 1. `php artisan migrate`
 - 2. `php artisan migrate:fresh --seed`
-
+- there is a fixed test user with email address: `test@example.com` password: `password`, all other users in the `users` table have password: `password`
 
 A docker-compose.yml tartalma:
 ```
@@ -69,3 +69,4 @@ volumes:
   mysql_data:
 ```
 ![Screenshot from 2025-06-02 02-11-11](https://github.com/user-attachments/assets/60285645-fb3a-4384-9090-adf40344fa63)
+![Screenshot from 2025-06-02 03-21-25](https://github.com/user-attachments/assets/60ca4393-1b75-402f-a5de-c8b51d441a63)

@@ -4,17 +4,18 @@ I developed a RESTful API using Laravel for the backend, along with a React + Ne
 
 Steps you need to take to make your project work in a local environment:
 
-- cloning the blog.api repository
+- clone the blog.api repository
 - clone the blog-frontend repository next to blog.api
 - copy the contents of the .env.example inside blog.api to an .env file in the blog.api directory
-- run a composer install in the blog.api directory on the host machine
 - copy the content of .env.local.example to .env.local file within blog-frontend
+- run a `composer install` in the blog.api directory on the host machine
+- run `npm install` in the blog-frontend directory on the host machine
 - Dockerfiles are included in the repository for simplicity
 - docker-compose.yml should be next to the blog.api and blog-frontend directories, create the file here and copy the contents you find in the README here
-- run a command from the root folder of the project where the compose file is located: docker compose up -d
+- run a command from the root folder of the project where the compose file is located: `docker compose up -d`
 - run two commands in the blog-api container:
-- 1. php artisan migrate
-- 2. php artisan migrate:fresh --seed
+- 1. `php artisan migrate`
+- 2. `php artisan migrate:fresh --seed`
 
 
 A docker-compose.yml tartalma:

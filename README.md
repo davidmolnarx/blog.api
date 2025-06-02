@@ -64,3 +64,4 @@ services:
 volumes:
   mysql_data:
 ```
+![Screenshot from 2025-06-02 02-11-11](https://github.com/user-attachments/assets/60285645-fb3a-4384-9090-adf40344fa63)

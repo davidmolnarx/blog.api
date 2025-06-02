@@ -1,3 +1,5 @@
+I developed a RESTful API using Laravel for the backend, along with a React + Next.js-based frontend application for the user interface.
+
 ## Local setup
 
 Steps you need to take to make your project work in a local environment:

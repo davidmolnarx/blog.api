@@ -18,6 +18,8 @@ Steps you need to take to make your project work in a local environment:
 - 2. `php artisan migrate:fresh --seed`
 - there is a fixed test user with email address: `test@example.com` password: `password`, all other users in the `users` table have password: `password`
 
+- Some API tests with Postman: https://david-224379.postman.co/workspace/David's-Workspace~b2a78e8e-9981-4267-8b56-d06fd4b0c5d7/collection/45502986-ed441970-6ace-4f53-a565-34a8333ac1a7?action=share&source=copy-link&creator=45502986
+
 A docker-compose.yml tartalma:
 ```
 services:
